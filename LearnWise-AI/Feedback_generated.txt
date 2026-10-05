@@ -1,0 +1,29 @@
+Nice work — you got more than half right. Here’s a clear, friendly review to help you strengthen the parts you missed.
+
+Overall performance
+Score: 3 out of 5 correct.
+Questions you answered correctly
+Q2 (Embeddings map items to continuous vectors so similar concepts have similar representations) — Correct.
+Q3 (Loss functions was NOT listed among the core deep-learning concepts in the summary) — Correct.
+Q5 (Concise takeaway: use attention + embeddings and experiment with architecture/hyperparameters) — Correct.
+Questions you answered incorrectly
+Q1 (you chose A; correct answer B)
+Q4 (you chose D; correct answer A)
+Explanations for the incorrect answers (with simple examples from the summary)
+Q1: You picked “To reduce the number of model parameters.” The summary says attention’s main role is to let models focus on relevant parts of the input and thereby handle long-range relationships. Think of attention as a spotlight that helps the model pick which words matter when processing a sentence — that focus, not parameter reduction, is the primary role described.
+Q4: You picked “Eliminating embeddings from a model.” The summary emphasizes that choosing architecture, hyperparameters, and training strategies often requires experimentation. That is the aspect that needs experimentation (correct answer A). Removing embeddings is not the experimental focus stated in the summary — the summary instead highlights experimenting with architecture/hyperparameters/training choices to get good results.
+Concepts you understood well
+Embeddings: you correctly recognized they map items to continuous vectors where similar concepts are close.
+Basic deep-learning building blocks: you identified weights, bias, and activation as core concepts (Q3).
+The overall takeaway: attention + embeddings + experimentation is important (Q5).
+Concepts to review again
+The primary role of attention: revisit that attention is about focusing on relevant input parts and enabling long-range relationships, not reducing parameter count.
+The practical note about what requires experimentation: review that architecture, hyperparameter choices, and training strategies are what the summary specifically calls out as needing experimentation.
+Recommendations for improvement
+Re-read the short “Attention mechanism” and “Transformer capability” lines in the summary to reinforce attention’s role as a spotlight for relevance and long-range relationships.
+Revisit the “Practical note” part that explicitly lists architecture, hyperparameters, and training strategy as the things that need experimentation.
+If it helps, go through the suggested 5-day schedule: Day 1 (Attention overview) and Day 3 (Self-attention) will directly address the concept you missed.
+If you want, I can create a brief, timed lesson or some quick practice questions focused just on attention vs. other model aspects.
+Suggested next concept to study
+Self-attention (a deeper look at how attention computes relationships within the same sequence) — this directly strengthens understanding of attention’s role in transformers and sequence tasks.
+If you’d like, I can expand Day 1 and Day 3 into short lessons with activities or give a few quick practice questions focused on attention to help cement the idea.
